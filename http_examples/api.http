@@ -1,0 +1,26 @@
+### GET HW Status
+GET http://{{host}}/admin/hw-status
+Connection: close
+
+### Reboot
+
+POST http://{{host}}/admin/reboot
+Authorization: {{auth}}
+
+1
+
+### GET Status
+
+GET http://{{host}}/api/status
+
+### Toggle pump
+
+POST http://{{host}}/api/toggle-pump
+Authorization: {{auth}}
+Connection: close
+
+1
+
+### Is pump running
+
+GET http://{{host}}/api/is-pump-running

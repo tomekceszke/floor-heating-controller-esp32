@@ -1,0 +1,8 @@
+/.idea
+/build
+/cmake-build-debug/
+/certs/*
+/main/include/credentials.h
+/http_examples/.http.env.json
+/http_examples/*.private.env.json
+/upload.sh
